@@ -1,0 +1,16 @@
+.home-content {
+  max-height: calc(100dvh - 72px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.building-card {
+  width: 345;
+  height: 280;
+
+  margin: 8px;
+}
