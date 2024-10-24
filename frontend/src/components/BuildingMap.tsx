@@ -5,6 +5,7 @@ import {
   Libraries,
   MarkerF,
   useJsApiLoader,
+} from "@react-google-maps/api";
 import DirectionsWalkIcon from "@mui/icons-material/DirectionsWalk";
 import DirectionsBikeIcon from "@mui/icons-material/DirectionsBike";
 import DriveEtaIcon from "@mui/icons-material/DriveEta";
