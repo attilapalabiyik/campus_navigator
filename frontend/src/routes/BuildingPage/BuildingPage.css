@@ -25,6 +25,10 @@
   margin-bottom: 24px;
 }
 
+.building-content-modes {
+  display: flex;
+}
+
 .building-img {
   width: 100%;
   height: calc(35% - 20px);
