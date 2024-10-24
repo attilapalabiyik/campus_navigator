@@ -139,12 +139,7 @@ function LogInButton() {
 
   return (
     <div className="login-button">
-      <GoogleLogin
-        text="signin"
-        shape="pill"
-        onSuccess={onSuccess}
-        onError={onError}
-      />
+      <GoogleLogin shape="pill" onSuccess={onSuccess} onError={onError} />
     </div>
   );
 }
