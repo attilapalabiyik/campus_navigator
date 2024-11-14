@@ -17,12 +17,12 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { useState } from "react";
-import { Building } from "../models/Building";
-import { filterBuildings } from "../store/buildingsSlice";
 import { logoutUser, setUser } from "../store/userSlice";
-import { User } from "../models/User";
+import { User, UserInfo } from "../../../models/User";
 import { CredentialResponse, GoogleLogin } from "@react-oauth/google";
 import { useDispatch } from "react-redux";
+import { setBuildings } from "../store/buildingsSlice";
+import { createUser, getBuildings, getUserById } from "../services";
 
 function SearchBar({
   searchText,
@@ -34,12 +34,10 @@ function SearchBar({
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
-  const search = () => {
+  const search = async () => {
     navigate("/");
-    const regex = new RegExp(searchText, "i");
-    dispatch(
-      filterBuildings((building: Building) => regex.test(building.name))
-    );
+    const buildings = await getBuildings(searchText);
+    dispatch(setBuildings(buildings));
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>) => {
@@ -123,16 +121,27 @@ function UserAvatar({ user }: { user: User }) {
 
 function LogInButton() {
   const dispatch = useDispatch();
-  const onSuccess = (credentials: CredentialResponse) => {
+  const onSuccess = async (credentials: CredentialResponse) => {
     if (credentials.credential) {
-      const userInfo = jwtDecode(credentials.credential) as User;
-      dispatch(
-        setUser({
-          name: userInfo.name,
-          username: userInfo.username,
-          email: userInfo.email,
-        })
-      );
+      const userInfo = jwtDecode(credentials.credential) as UserInfo;
+      let user = {
+        id: userInfo.sub,
+        name: userInfo.name,
+        username: userInfo.username,
+        email: userInfo.email,
+        savedBuildings: [],
+      };
+
+      try {
+        user = await getUserById(userInfo.sub);
+      } catch {
+        try {
+          await createUser(user);
+        } catch {
+          console.error("Could not get user data");
+        }
+      }
+      dispatch(setUser(user));
     }
   };
   const onError = () => {};
@@ -152,9 +161,10 @@ function Navbar() {
 
   const [searchText, setSearchText] = useState("");
 
-  const navigateHome = () => {
+  const navigateHome = async () => {
     setSearchText("");
-    dispatch(filterBuildings(() => true));
+    const buildings = await getBuildings();
+    dispatch(setBuildings(buildings));
     navigate("/");
   };
 

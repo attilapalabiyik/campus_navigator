@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { User } from "../models/User";
+import { User } from "../../../models/User";
 import { googleLogout } from "@react-oauth/google";
 
 export const userSlice = createSlice({
