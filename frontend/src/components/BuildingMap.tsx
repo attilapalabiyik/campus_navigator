@@ -12,7 +12,7 @@ import DriveEtaIcon from "@mui/icons-material/DriveEta";
 import TramIcon from "@mui/icons-material/Tram";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { environment } from "../environment";
-import { Building } from "../models/Building";
+import { Building } from "../../../models/Building";
 import { IconButton } from "@mui/material";
 
 type TravelModeType =

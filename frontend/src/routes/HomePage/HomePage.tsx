@@ -7,9 +7,13 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import { Building } from "../../models/Building";
+import { Building } from "../../../../models/Building";
 import { useNavigate } from "react-router-dom";
 import { useAppSelector } from "../../store/hooks";
+import { setBuildings } from "../../store/buildingsSlice";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { getBuildings } from "../../services";
 
 function BuildingCard({ building }: { building: Building }) {
   const navigate = useNavigate();
@@ -41,10 +45,20 @@ function BuildingCard({ building }: { building: Building }) {
 
 function HomeContent() {
   const buildingsState = useAppSelector((state) => state.buildings);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const fetchBuildings = async () => {
+      const buildings = await getBuildings();
+      dispatch(setBuildings(buildings));
+    };
+    fetchBuildings();
+  }, [dispatch]);
+
   return (
     <div className="home-content">
-      {buildingsState.filteredBuildings &&
-        buildingsState.filteredBuildings.map((building: Building) => (
+      {buildingsState &&
+        buildingsState.map((building: Building) => (
           <BuildingCard building={building} />
         ))}
     </div>

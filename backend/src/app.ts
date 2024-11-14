@@ -1,6 +1,7 @@
 import express, { Express, Request, Response, NextFunction } from "express";
-import { connectDB } from "./database";  // Import your DB connection function
-import routes from "./routes";  // Import routes from routes.ts
+import { connectDB } from "./database"; // Import your DB connection function
+import routes from "./routes"; // Import routes from routes.ts
+import cors from "cors";
 
 const app: Express = express();
 const port = 8000;
@@ -20,18 +21,22 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 // Middleware to parse JSON requests
 app.use(express.json());
 
+app.use(cors());
+
 // Use routes
 app.use(routes);
 
 // Start MongoDB connection
-connectDB().then(() => {
-  app.listen(port, () => {
-    console.log(`Application running on port ${port}`);
+connectDB()
+  .then(() => {
+    app.listen(port, () => {
+      console.log(`Application running on port ${port}`);
+    });
+  })
+  .catch((err) => {
+    console.error("Error connecting to MongoDB:", err);
+    process.exit(1); // Exit if DB connection fails
   });
-}).catch((err) => {
-  console.error("Error connecting to MongoDB:", err);
-  process.exit(1);  // Exit if DB connection fails
-});
 
 // Basic health check route
 app.get("/", (req: Request, res: Response) => {

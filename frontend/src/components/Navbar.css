@@ -50,6 +50,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  scale: 0.9;
 }
 
 .avatar-img {

@@ -1,8 +1,9 @@
 // routes.ts
 import express, { Request, Response } from "express";
 import { usersCollection, buildingsCollection } from "./database";
-import { User, Building } from "./types";  // Import types from the shared file
-import { ObjectId } from 'mongodb';
+import { User } from "../../models/User";
+import { Building } from "../../models/Building";
+import { ObjectId } from "mongodb";
 
 const router = express.Router();
 
@@ -21,7 +22,10 @@ router.post("/api/users", async (req: Request, res: Response) => {
 
   try {
     const result = await usersCollection.insertOne(newUser);
-    res.status(201).json({ message: "User created successfully", userId: result.insertedId });
+    res.status(201).json({
+      message: "User created successfully",
+      userId: result.insertedId,
+    });
   } catch (error) {
     res.status(500).json({ message: "Failed to create user", error });
   }
@@ -31,12 +35,10 @@ router.post("/api/users", async (req: Request, res: Response) => {
 router.get("/api/users/:id", async (req: Request, res: Response) => {
   const userId = req.params.id;
 
-  if (!ObjectId.isValid(userId)) {
-    return res.status(400).json({ message: "Invalid user ID" });
-  }
-
   try {
-    const user = await usersCollection.findOne<User>({ _id: new ObjectId(userId) });
+    const user = await usersCollection.findOne<User>({
+      id: userId,
+    });
 
     if (user) {
       res.status(200).json(user);
@@ -49,8 +51,11 @@ router.get("/api/users/:id", async (req: Request, res: Response) => {
 });
 
 router.get("/api/buildings", async (req: Request, res: Response) => {
+  const search = req.query.search as string;
+
   try {
-    const buildings = await buildingsCollection.find<Building>({}).toArray();
+    const query = search ? { name: { $regex: search, $options: "i" } } : {};
+    const buildings = await buildingsCollection.find<Building>(query).toArray();
     res.status(200).json(buildings);
   } catch (error) {
     res.status(500).json({ message: "Failed to fetch buildings", error });
@@ -66,7 +71,7 @@ router.get("/api/buildings/:id", async (req: Request, res: Response) => {
 
   try {
     const building = await buildingsCollection.findOne<Building>({
-      _id: new ObjectId(buildingId)
+      _id: new ObjectId(buildingId),
     });
 
     if (building) {
