@@ -10,7 +10,6 @@ import {
   Typography,
   useMediaQuery,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SettingsIcon from "@mui/icons-material/Settings";
@@ -171,9 +170,6 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-left">
-        <IconButton className="navbar-icon-button">
-          <MenuIcon />
-        </IconButton>
         {showTitle && (
           <Typography
             fontSize={20}
