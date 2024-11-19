@@ -12,3 +12,10 @@ export interface UserInfo {
   username: string;
   email: string;
 }
+
+export interface UserUpdate {
+  name?: string;
+  username?: string;
+  email?: string;
+  savedBuildings?: string[];
+}

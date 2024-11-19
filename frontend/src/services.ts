@@ -1,5 +1,5 @@
 import axios from "axios";
-import { User } from "../../models/User";
+import { User, UserUpdate } from "../../models/User";
 
 const api = axios.create({
   baseURL: "http://localhost:8000/api",
@@ -18,6 +18,16 @@ export const getUsers = async () => {
 export const createUser = async (userData: User) => {
   try {
     const response = await api.post("/users", userData);
+    return response.data;
+  } catch (error) {
+    console.error("Error creating user:", error);
+    throw error;
+  }
+};
+
+export const patchUser = async (id: string, userUpdate: UserUpdate) => {
+  try {
+    const response = await api.patch(`/users/${id}`, userUpdate);
     return response.data;
   } catch (error) {
     console.error("Error creating user:", error);

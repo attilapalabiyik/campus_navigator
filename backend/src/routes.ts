@@ -31,6 +31,23 @@ router.post("/api/users", async (req: Request, res: Response) => {
   }
 });
 
+// PATCH a user by ID
+router.patch("/api/users/:id", async (req: Request, res: Response) => {
+  const userId = req.params.id;
+  const updates = req.body;
+
+  try {
+    await usersCollection.updateOne({ id: userId }, { $set: updates });
+    res.status(201).json({
+      message: "User updated successfully",
+      userId: userId,
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Failed to create user", error });
+  }
+});
+
 // GET a user by ID
 router.get("/api/users/:id", async (req: Request, res: Response) => {
   const userId = req.params.id;
