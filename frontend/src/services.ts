@@ -5,6 +5,16 @@ const api = axios.create({
   baseURL: "http://localhost:8000/api",
 });
 
+export const chat = async (message: string) => {
+  try {
+    const response = await api.post("/chat", { message: message });
+    return response.data.response;
+  } catch (error) {
+    console.error("Error creating user:", error);
+    throw error;
+  }
+};
+
 export const getUsers = async () => {
   try {
     const response = await api.get("/users");

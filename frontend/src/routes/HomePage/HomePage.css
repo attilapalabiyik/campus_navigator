@@ -1,5 +1,8 @@
 .home-content {
   max-height: calc(100dvh - 72px);
+}
+
+.buildings-content {
   overflow-y: auto;
   display: flex;
   flex-direction: row;
