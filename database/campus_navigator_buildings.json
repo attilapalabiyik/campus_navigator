@@ -1,0 +1,4087 @@
+[{
+  "_id": {
+    "$oid": "673fc869348c672f91ac1f1b"
+  },
+  "id": "673fc869348c672f91ac1f1b",
+  "name": "Integrative Learning Center",
+  "address": "650 North Pleasant Street, Amherst, MA 01003-1100",
+  "location": {
+    "lat": 42.3909,
+    "lng": -72.5257
+  },
+  "img": "https://www.umass.edu/cp/sites/default/files/styles/inner-page-header-v2/public/Integrative%20Learning%20Center%20%28ILC%29_19_0.jpg?itok=RETKlLsf",
+  "floors": [
+    {
+      "name": "First Floor",
+      "rooms": [
+        {
+          "name": "S110",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S110A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S110C",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S120",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S120A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S120D",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S131",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S131A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S131B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S140",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S140A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S144",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S199T",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S199N",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N101",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N101A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N101B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N111",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N111A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N121",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N199D",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N121",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N199E",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N155B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N155A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N155",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S197",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S193",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S195",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S191",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S189",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S187",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S199E",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S112",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S199Q",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S199P",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S199U",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S199V",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199C",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N140",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N145A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199G",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199J",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199K",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N199M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S199D",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S142",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N131",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N145",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S133",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S109B",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S109",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S109A",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S103",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S105",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S199G",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S142",
+          "type": "service / utility",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Second Floor",
+      "rooms": [
+        {
+          "name": "S220",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S220A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S211A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S211",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S217",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S211B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S231",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S231A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S240",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S240A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S299R",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N211",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N251",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N255",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N255A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S290",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S291",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S293",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S292",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S299A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299D",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S210",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299E",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299F",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299K",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299H",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299Q",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299P",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299U",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S299V",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N299A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N299B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N299H",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N299K",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N299M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N259",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S281",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S283",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S299W",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S282",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S280",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S278",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S275",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S299Z",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S271",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S241",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S261",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S240B",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S219",
+          "type": "service / utility",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Third Floor",
+      "rooms": [
+        {
+          "name": "S311",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S311A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S310",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S310A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S310B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S310D",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S312C",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S308C",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S312",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S331",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S331A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S331B",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S350",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N301",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N317",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N321",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N371",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N331",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N331A",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N357",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N345",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N347",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N351",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S314",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S316",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S318",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S320",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S324",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S326",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S328",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S330",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N308",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N310",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N312",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N314",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N316",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N318",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N320",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N322",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N324",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N326",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N328",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N332",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N334",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N336",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N338",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N340",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N327",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N325",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N369",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N355",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N352",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N354",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N356",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N358",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N362",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N364",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N366",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N368",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N370",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N372",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N374",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S390",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S392",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S391",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S393",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "N346",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N399F",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N360",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N399M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N399B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N303",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N399U",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399Q",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399P",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399T",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S322",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S312A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399H",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399J",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399E",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S399D",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S315",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S317",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S321",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S335",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S361",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N309",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N311",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S396",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S394",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S395",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S397",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N373",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N367",
+          "type": "service / utility",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Fourth Floor",
+      "rooms": [
+        {
+          "name": "N443",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N445",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N447",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N449",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S413",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S407",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S405",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S450",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S408",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "S404",
+          "type": "classroom / curriculum",
+          "events": []
+        },
+        {
+          "name": "N440",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N438",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N436",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N434",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N430",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N428",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N426",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N444",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421A",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421B",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421C",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421D",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421E",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N452",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N454",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N464",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N466",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N470",
+          "type": "office",
+          "events": [
+            {
+              "title": "Ling 205",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "N472",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N422",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N420",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N418",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N416",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N414",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N412",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N410",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N408",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421K",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421J",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421H",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421G",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N421F",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N404",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N402",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N407",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N405",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "N403",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S417",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S419",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S421",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S473",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S471",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S469",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S467",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S465",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S463",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S461",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S459",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S457",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S455",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S453",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S451",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S447",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S445",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S443",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S441",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S439",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S437",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S435",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S433",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S431",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S429",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S427",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S425",
+          "type": "office",
+          "events": []
+        },
+        {
+          "name": "S494",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S492",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S493",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S491",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "S497",
+          "type": "restroom",
+          "events": []
+        },
+        {
+          "name": "N400",
+          "type": "circulation and common areas",
+          "events": [
+            {
+              "title": "Ling 510",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "Ling 510 Syntax Workshop",
+              "start": "2024-09-12T16:00:00",
+              "end": "2024-09-12T17:30:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "Ling 510 Salt Meeting",
+              "start": "2024-09-12T17:45:00",
+              "end": "2024-09-12T19:15:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "Psycholinguistics Workshop",
+              "start": "2024-09-13T10:00:00",
+              "end": "2024-09-13T11:00:00",
+              "recurrence": "Fridays"
+            }
+          ]
+        },
+        {
+          "name": "N442",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N446",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N448",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N448A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N451",
+          "type": "circulation and common areas",
+          "events": [
+            {
+              "title": "Faculty Meeting",
+              "start": "2024-09-09T12:20:00",
+              "end": "2024-09-09T13:10:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "Ling 390B",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "Ling 609",
+              "start": "2024-09-09T16:00:00",
+              "end": "2024-09-09T17:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "Ling 603",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Thursdays"
+            },
+            {
+              "title": "Ling 201",
+              "start": "2024-09-12T10:00:00",
+              "end": "2024-09-12T11:30:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "Phonetics Lab Meeting",
+              "start": "2024-09-12T18:00:00",
+              "end": "2024-09-12T19:00:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "Sound Workshop",
+              "start": "2024-09-13T14:15:00",
+              "end": "2024-09-13T15:15:00",
+              "recurrence": "Fridays"
+            }
+          ]
+        },
+        {
+          "name": "N499M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N458",
+          "type": "circulation and common areas",
+          "events": [
+            {
+              "title": "Ling 601",
+              "start": "2024-09-09T10:10:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "Ling 610",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "Ling 730",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "Ling 720",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "Language Acquisition Lab Meeting",
+              "start": "2024-09-11T16:00:00",
+              "end": "2024-09-11T17:00:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "Congnitive Science meeting",
+              "start": "2024-09-12T18:00:00",
+              "end": "2024-09-12T20:00:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "LARC",
+              "start": "2024-09-13T13:00:00",
+              "end": "2024-09-13T14:25:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "Ling 791D",
+              "start": "2024-09-13T14:30:00",
+              "end": "2024-09-13T15:30:00",
+              "recurrence": "Fridays"
+            }
+          ]
+        },
+        {
+          "name": "N462",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N4310",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431D",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431H",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431G",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431F",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N431E",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N432",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N424",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N421",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N421L",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N417",
+          "type": "circulation and common areas",
+          "events": [
+            {
+              "title": "Ling 750",
+              "start": "2024-09-09T13:00:00",
+              "end": "2024-09-09T14:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "Ling 510",
+              "start": "2024-09-12T11:30:00",
+              "end": "2024-09-12T13:30:00",
+              "recurrence": "Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "N499B",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499U",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N499N",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499Q",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499P",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499X",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S416",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N406",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499T",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S418",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S415",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "N401",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S414",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S423",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S423A",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499M",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S430",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S432",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S434",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S406",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499H",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S402",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499D",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S499E",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S452",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S454",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S462",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S460",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S456",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S458",
+          "type": "circulation and common areas",
+          "events": []
+        },
+        {
+          "name": "S498",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N450",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N496",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S496",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N415",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N413",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "N411",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S490",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S411",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S403",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S401",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S412",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S426",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S428",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S448",
+          "type": "service / utility",
+          "events": []
+        },
+        {
+          "name": "S446",
+          "type": "service / utility",
+          "events": []
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "673fc8e7348c672f91ac1f1c"
+  },
+  "id": "673fc8e7348c672f91ac1f1c",
+  "name": "Machmer Hall",
+  "address": "240 Hicks Way Machmer Hall, Amherst, MA 01003",
+  "location": {
+    "lat": 42.3918,
+    "lng": -72.5274
+  },
+  "img": "https://www.umass.edu/physicalplant/sites/default/files/IMG_6896.JPG",
+  "floors": [
+    {
+      "name": "Basement",
+      "rooms": [
+        {
+          "name": "E-10",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "POLISCI 111 01AA",
+              "start": "2024-09-09T09:05:00",
+              "end": "2024-09-09T09:55:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "POLISCI 111 01AA",
+              "start": "2024-10-15T09:05:00",
+              "end": "2024-10-15T09:55:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 111 01AB",
+              "start": "2024-09-09T10:10:00",
+              "end": "2024-09-09T11:00:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "POLISCI 111 01AB",
+              "start": "2024-10-15T10:10:00",
+              "end": "2024-10-15T11:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 111 01BC",
+              "start": "2024-09-09T12:20:00",
+              "end": "2024-09-09T13:10:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "POLISCI 111 01BC",
+              "start": "2024-10-15T12:20:00",
+              "end": "2024-10-15T13:10:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ANTHRO 205 01AA",
+              "start": "2024-09-13T09:05:00",
+              "end": "2024-09-13T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 205 01AB",
+              "start": "2024-09-13T10:10:00",
+              "end": "2024-09-13T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 205 01AC",
+              "start": "2024-09-13T11:15:00",
+              "end": "2024-09-13T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 205 01AD",
+              "start": "2024-09-13T12:20:00",
+              "end": "2024-09-13T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 205 01AE",
+              "start": "2024-09-13T13:25:00",
+              "end": "2024-09-13T14:15:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 205 01AF",
+              "start": "2024-09-13T14:30:00",
+              "end": "2024-09-13T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 316 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ANTHRO 415 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 393LG 01",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ANTHRO 394EI 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "ANTHRO 394EI 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ANTHRO 416 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ECON 365 04",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 340 01",
+              "start": "2024-09-11T16:00:00",
+              "end": "2024-09-11T18:30:00",
+              "recurrence": "Wednesdays"
+            }
+          ]
+        },
+        {
+          "name": "W-11",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "LEGAL 257 01",
+              "start": "2024-09-09T09:05:00",
+              "end": "2024-09-09T09:55:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "LEGAL 257 01",
+              "start": "2024-10-15T09:05:00",
+              "end": "2024-10-15T09:55:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "LEGAL 394JI 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 121 01AG",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 252 01",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "LEGAL 252 01",
+              "start": "2024-10-15T11:15:00",
+              "end": "2024-10-15T12:05:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 343 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01BA",
+              "start": "2024-09-12T12:20:00",
+              "end": "2024-09-12T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SPP 376 01",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 365 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "LEGAL 365 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 245 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 121 01AK",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "COMM 491S 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 394CI 01",
+              "start": "2024-09-09T16:00:00",
+              "end": "2024-09-09T17:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "LEGAL 394CI 01",
+              "start": "2024-10-15T16:00:00",
+              "end": "2024-10-15T17:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "LEGAL 335 01",
+              "start": "2024-09-12T18:30:00",
+              "end": "2024-09-12T20:30:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "EXAM for POLISCI 245 01",
+              "start": "2024-12-18T15:30:00",
+              "end": "2024-12-18T17:30:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "W-15",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "LEGAL 358 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 313 01",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "SOCIOL 313 01",
+              "start": "2024-10-15T11:15:00",
+              "end": "2024-10-15T12:05:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SOCIOL 244 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 364 01",
+              "start": "2024-09-09T12:20:00",
+              "end": "2024-09-09T13:10:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "POLISCI 364 01",
+              "start": "2024-10-15T12:20:00",
+              "end": "2024-10-15T13:10:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SOCIOL 271 01",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 329 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "LEGAL 275 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 329 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "SOCIOL 329 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "LEGAL 250 01BC",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 391U 01",
+              "start": "2024-09-09T16:00:00",
+              "end": "2024-09-09T17:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "LEGAL 391U 01",
+              "start": "2024-10-15T16:00:00",
+              "end": "2024-10-15T17:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SPP 204 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "199G",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199F",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-08",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-06",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199H",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199E",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "112",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-09",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199L",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199C",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "111",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "109",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-18A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199D",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-07",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-07A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199K",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "199A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-16",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-14",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-12",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-15",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-13N",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-17",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "106",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "107",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "W-12",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "W-12A",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "W-14",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "W-16",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "W-17",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-09",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-11",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-18",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "100",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "101",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "102",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "103",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "104",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "105",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "W-10",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "108",
+          "type": "support facilities",
+          "events": []
+        },
+        {
+          "name": "110",
+          "type": "support facilities",
+          "events": []
+        },
+        {
+          "name": "110A",
+          "type": "support facilities",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Second Floor",
+      "rooms": [
+        {
+          "name": "299J",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299H",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299G",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299F",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-20B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-20C",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "219",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299C",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299D",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299E",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "200",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "216",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "220",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-19",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-19A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "299A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-21",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "POLISCI 390G 01",
+              "start": "2024-09-10T08:30:00",
+              "end": "2024-09-10T09:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 250 01AG",
+              "start": "2024-09-12T09:05:00",
+              "end": "2024-09-12T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 450 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 250 01AJ",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LABOR 204 01AB",
+              "start": "2024-09-12T11:15:00",
+              "end": "2024-09-12T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 204 01AB",
+              "start": "2024-09-12T11:15:00",
+              "end": "2024-09-12T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 290V 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "FFYS 191POL22 01",
+              "start": "2024-09-11T12:20:00",
+              "end": "2024-09-11T13:10:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "LEGAL 250 01BA",
+              "start": "2024-09-12T12:20:00",
+              "end": "2024-09-12T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 450 02",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 250 01BB",
+              "start": "2024-09-12T13:25:00",
+              "end": "2024-09-12T14:15:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 390A 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T17:00:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "LEGAL 390A 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T17:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "LEGAL 394MI 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 250 01AK",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LEGAL 352 01",
+              "start": "2024-09-11T16:00:00",
+              "end": "2024-09-11T18:30:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "LEGAL 258 01",
+              "start": "2024-09-12T16:00:00",
+              "end": "2024-09-12T18:30:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "LEGAL 432 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T18:30:00",
+              "recurrence": "Tuesdays"
+            }
+          ]
+        },
+        {
+          "name": "W-22",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "POLISCI 171 01AA",
+              "start": "2024-09-12T09:05:00",
+              "end": "2024-09-12T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SPP 499C 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 499C 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 171 01AB",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 171 01AC",
+              "start": "2024-09-12T11:15:00",
+              "end": "2024-09-12T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 377 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 171 01AD",
+              "start": "2024-09-12T12:20:00",
+              "end": "2024-09-12T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 171 01AE",
+              "start": "2024-09-12T13:25:00",
+              "end": "2024-09-12T14:15:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 171 01AF",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 150H 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "ANTHRO 150H 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 393M 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "COMM 495A 01",
+              "start": "2024-09-09T16:00:00",
+              "end": "2024-09-09T17:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "COMM 495A 01",
+              "start": "2024-10-15T16:00:00",
+              "end": "2024-10-15T17:15:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "W-23",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "PSYCH 241 01LL",
+              "start": "2024-09-10T08:30:00",
+              "end": "2024-09-10T09:45:00",
+              "recurrence": "Tuesdays"
+            },
+            {
+              "title": "PSYCH 241 01LW",
+              "start": "2024-09-12T08:30:00",
+              "end": "2024-09-12T09:45:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01AG",
+              "start": "2024-09-12T09:05:00",
+              "end": "2024-09-12T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "Psy 330 Rev Sess",
+              "start": "2024-09-05T10:00:00",
+              "end": "2024-09-05T10:50:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "PSYCH 240 01LL",
+              "start": "2024-09-09T10:10:00",
+              "end": "2024-09-09T11:00:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "PSYCH 240 01LL",
+              "start": "2024-10-15T10:10:00",
+              "end": "2024-10-15T11:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "PSYCH 240 01LW",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "PSYCH 240 01LR",
+              "start": "2024-09-11T10:10:00",
+              "end": "2024-09-11T11:00:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "PSYCH 240 01LM",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "PSYCH 240 01LM",
+              "start": "2024-10-15T11:15:00",
+              "end": "2024-10-15T12:05:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "PSYCH 240 01LS",
+              "start": "2024-09-11T11:15:00",
+              "end": "2024-09-11T12:05:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "PSYCH 240 01LX",
+              "start": "2024-09-12T11:30:00",
+              "end": "2024-09-12T12:45:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "PSYCH 241 01LM",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays"
+            },
+            {
+              "title": "PSYCH 240 01LN",
+              "start": "2024-09-09T12:20:00",
+              "end": "2024-09-09T13:10:00",
+              "recurrence": "Mondays"
+            },
+            {
+              "title": "PSYCH 240 01LN",
+              "start": "2024-10-15T12:20:00",
+              "end": "2024-10-15T13:10:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "PSYCH 240 01LU",
+              "start": "2024-09-11T12:20:00",
+              "end": "2024-09-11T13:10:00",
+              "recurrence": "Wednesdays"
+            },
+            {
+              "title": "PSYCH 240 01LZ",
+              "start": "2024-09-12T12:20:00",
+              "end": "2024-09-12T13:10:00",
+              "recurrence": "Fridays"
+            }
+          ]
+        },
+        {
+          "name": "W-24",
+          "type": "classroom / curriculum",
+          "events": [
+            {
+              "title": "EXAM for ECON 345 01",
+              "start": "2024-12-17T08:00:00",
+              "end": "2024-12-17T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "EXAM for ECON 343 01",
+              "start": "2024-12-17T08:00:00",
+              "end": "2024-12-17T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ECON 345 01",
+              "start": "2024-09-10T08:30:00",
+              "end": "2024-09-10T09:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 111 01AG",
+              "start": "2024-09-13T09:05:00",
+              "end": "2024-09-13T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ECON 343 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 111 01AJ",
+              "start": "2024-09-13T10:10:00",
+              "end": "2024-09-13T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 111 01AC",
+              "start": "2024-09-13T11:15:00",
+              "end": "2024-09-13T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ECON 338 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 111 01AD",
+              "start": "2024-09-13T12:20:00",
+              "end": "2024-09-13T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "EXAM for ECON 338 01",
+              "start": "2024-12-17T13:00:00",
+              "end": "2024-12-17T15:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "EXAM for ECON 313 01",
+              "start": "2024-12-17T15:30:00",
+              "end": "2024-12-17T17:30:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ECON 337 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "W-25",
+          "type": "classroom / curriculum",
+          "events": [
+            {
+              "title": "EXAM for ANTHRO 364",
+              "start": "2024-12-12T08:00:00",
+              "end": "2024-12-12T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 273 01AA",
+              "start": "2024-09-13T09:05:00",
+              "end": "2024-09-13T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ANTHRO 364",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01AB",
+              "start": "2024-09-13T10:10:00",
+              "end": "2024-09-13T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 273 01AC",
+              "start": "2024-09-13T11:15:00",
+              "end": "2024-09-13T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "COMM 494LI",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01AD",
+              "start": "2024-09-13T12:20:00",
+              "end": "2024-09-13T13:10:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ECON 394FI",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01AE",
+              "start": "2024-09-13T13:25:00",
+              "end": "2024-09-13T14:15:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 384",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays, Tuesdays, Wednesdays, and Thursdays"
+            },
+            {
+              "title": "POLISCI 273 01AF",
+              "start": "2024-09-13T14:30:00",
+              "end": "2024-09-13T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 341",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "W-26",
+          "type": "classroom / curriculum",
+          "events": [
+            {
+              "title": "FFYS 191COMM4",
+              "start": "2024-09-12T08:30:00",
+              "end": "2024-09-12T09:20:00",
+              "recurrence": "Thursdays"
+            },
+            {
+              "title": "LRC ASC Pres",
+              "start": "2024-10-11T09:00:00",
+              "end": "2024-10-11T10:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ECON 336 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 281",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays, Tuesdays, Wednesdays, and Fridays"
+            },
+            {
+              "title": "ANTHRO 290STA 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LRC ASC Pres",
+              "start": "2024-10-11T12:30:00",
+              "end": "2024-10-11T14:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 391GP",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "COMM 290STA",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "COMM 394DI",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "COMM 290STA",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "COMM 390STA",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T17:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "DACSS 602",
+              "start": "2024-09-09T17:30:00",
+              "end": "2024-09-09T18:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "DACSS 601",
+              "start": "2024-09-10T17:30:00",
+              "end": "2024-09-10T18:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ECON 204-01 MAKE-UP EXAM",
+              "start": "2024-10-23T19:00:00",
+              "end": "2024-10-23T21:00:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "W-27",
+          "type": "classroom / curriculum",
+          "events": [
+            {
+              "title": "EXAM for ECON 306 01",
+              "start": "2024-12-12T08:00:00",
+              "end": "2024-12-12T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 305",
+              "start": "2024-09-10T08:30:00",
+              "end": "2024-09-10T09:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 222",
+              "start": "2024-09-13T09:05:00",
+              "end": "2024-09-13T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ECON 306 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LEGAL 342 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 390P",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 377",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "POLISCI 359",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "POLISCI 270",
+              "start": "2024-09-10T17:30:00",
+              "end": "2024-09-10T18:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            }
+          ]
+        },
+        {
+          "name": "E-20",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-25",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-26",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-26C",
+          "type": "laboratory facilities",
+          "events": []
+        },
+        {
+          "name": "E-22",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-22A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-22B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-26A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-26B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27C",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27E",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27F",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27G",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "201",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "202",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "203",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "204",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "205",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "206",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "207A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "207B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "208",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "209",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "210",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "211",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "212",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "213",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "214",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "215",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "215A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "217",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "217A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "218",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "W-20",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-27D",
+          "type": "general use facilities",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Third Floor",
+      "rooms": [
+        {
+          "name": "399G",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399F",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399E",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-39",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-39A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399H",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "300",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399D",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399J",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "319",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399C",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-38B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "W-38A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "399B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "E-33",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "EXAM for SOCIOL 320 01",
+              "start": "2024-12-12T08:00:00",
+              "end": "2024-12-12T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ECON 365 01",
+              "start": "2024-09-09T09:05:00",
+              "end": "2024-09-09T09:55:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "ECON 365 01",
+              "start": "2024-10-15T09:05:00",
+              "end": "2024-10-15T09:55:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SOCIOL 320 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "LABOR 204 01AA",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 204 01AA",
+              "start": "2024-09-12T10:10:00",
+              "end": "2024-09-12T11:00:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "ECON 365 02",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "ECON 365 02",
+              "start": "2024-10-15T11:15:00",
+              "end": "2024-10-15T12:05:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ECON 305 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "COMM 494KI 01",
+              "start": "2024-09-10T13:00:00",
+              "end": "2024-09-10T14:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ECON 365 03",
+              "start": "2024-09-09T13:25:00",
+              "end": "2024-09-09T14:15:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "ECON 365 03",
+              "start": "2024-10-15T13:25:00",
+              "end": "2024-10-15T14:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 394GI 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "POLISCI 394GI 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 273 01AJ",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "POLISCI 372 01",
+              "start": "2024-09-09T16:00:00",
+              "end": "2024-09-09T17:15:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "POLISCI 372 01",
+              "start": "2024-10-15T16:00:00",
+              "end": "2024-10-15T17:15:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "E-35",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "EXAM for SOCIOL 224 01",
+              "start": "2024-12-12T08:00:00",
+              "end": "2024-12-12T10:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 273 01BC",
+              "start": "2024-09-12T09:05:00",
+              "end": "2024-09-12T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "SOCIOL 224 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 322 01",
+              "start": "2024-09-09T10:10:00",
+              "end": "2024-09-09T11:00:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "LEGAL 391GL 01",
+              "start": "2024-09-09T11:15:00",
+              "end": "2024-09-09T12:05:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "EXAM for POLISCI 356 01",
+              "start": "2024-12-18T13:00:00",
+              "end": "2024-12-18T15:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "EXAM for POLISCI 656 01",
+              "start": "2024-12-18T13:00:00",
+              "end": "2024-12-18T15:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 356 01",
+              "start": "2024-09-09T13:25:00",
+              "end": "2024-09-09T14:15:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "POLISCI 356 01",
+              "start": "2024-10-15T13:25:00",
+              "end": "2024-10-15T14:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 656 01",
+              "start": "2024-09-09T13:25:00",
+              "end": "2024-09-09T14:15:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "POLISCI 656 01",
+              "start": "2024-10-15T13:25:00",
+              "end": "2024-10-15T14:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SOCIOL 248 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "SOCIOL 248 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "SOCIOL 346 01",
+              "start": "2024-09-10T14:30:00",
+              "end": "2024-09-10T15:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ECON 103 01AG",
+              "start": "2024-09-12T14:30:00",
+              "end": "2024-09-12T15:20:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "LABOR 204 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T16:50:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "SOCIOL 204 01",
+              "start": "2024-09-10T16:00:00",
+              "end": "2024-09-10T16:50:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "FDSCI- Alt Pro Club",
+              "start": "2024-10-23T16:00:00",
+              "end": "2024-10-23T18:00:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "E-37",
+          "type": "classroom",
+          "events": [
+            {
+              "title": "POLISCI 162 01",
+              "start": "2024-09-09T09:05:00",
+              "end": "2024-09-09T09:55:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "POLISCI 162 01",
+              "start": "2024-10-15T09:05:00",
+              "end": "2024-10-15T09:55:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 111 01BB",
+              "start": "2024-09-12T09:05:00",
+              "end": "2024-09-12T09:55:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "COMM 225 01",
+              "start": "2024-09-10T10:00:00",
+              "end": "2024-09-10T11:15:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "COMM 372 01",
+              "start": "2024-09-09T10:10:00",
+              "end": "2024-09-09T11:00:00",
+              "recurrence": "Mondays, Wednesdays and Fridays"
+            },
+            {
+              "title": "COMM 372 01",
+              "start": "2024-10-15T10:10:00",
+              "end": "2024-10-15T11:00:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "POLISCI 121 01AJ",
+              "start": "2024-09-12T11:15:00",
+              "end": "2024-09-12T12:05:00",
+              "recurrence": "Fridays"
+            },
+            {
+              "title": "COMM 310 01",
+              "start": "2024-09-10T11:30:00",
+              "end": "2024-09-10T12:45:00",
+              "recurrence": "Tuesdays and Thursdays"
+            },
+            {
+              "title": "ISSR workshop",
+              "start": "2024-10-02T11:30:00",
+              "end": "2024-10-02T14:15:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "ANTHRO 215 01",
+              "start": "2024-09-09T14:30:00",
+              "end": "2024-09-09T15:45:00",
+              "recurrence": "Mondays and Wednesdays"
+            },
+            {
+              "title": "ANTHRO 215 01",
+              "start": "2024-10-15T14:30:00",
+              "end": "2024-10-15T15:45:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "LBR Legal Defense Strat for Stu",
+              "start": "2024-10-01T15:00:00",
+              "end": "2024-10-01T17:30:00",
+              "recurrence": "One-time"
+            },
+            {
+              "title": "EXAM for ANTHRO 215 01",
+              "start": "2024-12-17T15:30:00",
+              "end": "2024-12-17T17:30:00",
+              "recurrence": "One-time"
+            }
+          ]
+        },
+        {
+          "name": "E-30",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-30E",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-31",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-32",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-34",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "E-36",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "301",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "301A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "302",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "303",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "304",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "305",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "307A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "307B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "308",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "309",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "310",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "311",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "312",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "313A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "313B",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "314",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "315",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "317",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "317A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "W-37B",
+          "type": "general use facilities",
+          "events": []
+        },
+        {
+          "name": "306",
+          "type": "general use facilities",
+          "events": []
+        },
+        {
+          "name": "321",
+          "type": "support facilities",
+          "events": []
+        },
+        {
+          "name": "324",
+          "type": "support facilities",
+          "events": []
+        },
+        {
+          "name": "W-31E",
+          "type": "unclassified facilities",
+          "events": []
+        }
+      ]
+    },
+    {
+      "name": "Fourth Floor",
+      "rooms": [
+        {
+          "name": "400",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "416",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "418",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "419",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "499A",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "499B",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "499C",
+          "type": "non-assignable area",
+          "events": []
+        },
+        {
+          "name": "413",
+          "type": "classroom",
+          "events": []
+        },
+        {
+          "name": "401",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "401A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "402",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "403",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "404",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "405",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "406",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "407",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "408",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "409",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "410",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "411",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "412",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "414",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "415",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "417",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "417A",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "420",
+          "type": "office facilities",
+          "events": []
+        },
+        {
+          "name": "421",
+          "type": "office facilities",
+          "events": []
+        }
+      ]
+    }
+  ]
+}]
