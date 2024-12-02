@@ -67,7 +67,7 @@ function BuildingCard({ building }: { building: Building }) {
         {userState && (
           <IconButton onClick={() => saveBuilding(building)}>
             <FavoriteIcon
-              color={savedBuilding(building) ? "error" : "inherit"}
+              htmlColor={savedBuilding(building) ? "#dc2626" : "inherit"}
             />
           </IconButton>
         )}
@@ -76,25 +76,16 @@ function BuildingCard({ building }: { building: Building }) {
   );
 }
 
-function HomeContent() {
+function BuildingsContent() {
   const userState = useAppSelector((state) => state.user);
   const buildingsState = useAppSelector((state) => state.buildings);
-  const dispatch = useDispatch();
   const savedBuilding = (building: Building) =>
     userState && userState.savedBuildings.includes(building.id);
 
-  useEffect(() => {
-    const fetchBuildings = async () => {
-      const buildings = await getBuildings();
-      dispatch(setBuildings(buildings));
-    };
-    fetchBuildings();
-  }, [dispatch]);
-
   return (
-    <div className="home-content">
+    <div className="buildings-content">
       {buildingsState &&
-        buildingsState
+        [...buildingsState]
           .sort((a: Building, b: Building) =>
             savedBuilding(a) === savedBuilding(b)
               ? a.name.localeCompare(b.name)
@@ -108,7 +99,21 @@ function HomeContent() {
 }
 
 function HomePage() {
-  return <HomeContent />;
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const fetchBuildings = async () => {
+      const buildings = await getBuildings();
+      dispatch(setBuildings(buildings));
+    };
+    fetchBuildings();
+  }, [dispatch]);
+
+  return (
+    <div className="home-content">
+      <BuildingsContent />
+    </div>
+  );
 }
 
 export default HomePage;

@@ -4,8 +4,21 @@ import { usersCollection, buildingsCollection } from "./database";
 import { User } from "../../models/User";
 import { Building } from "../../models/Building";
 import { ObjectId } from "mongodb";
+import { buildings_chat } from "./chat";
 
 const router = express.Router();
+
+router.post("/api/chat", async (req: Request, res: Response) => {
+  const message = req.body.message;
+  try {
+    const buildings = await buildingsCollection.find<Building>({}).toArray();
+    const response = await buildings_chat(message, buildings);
+    res.status(200).json({ response: response });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Failed to chat", error });
+  }
+});
 
 router.get("/api/users", async (req: Request, res: Response) => {
   try {

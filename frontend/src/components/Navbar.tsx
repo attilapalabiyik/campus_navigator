@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 import {
   Avatar,
@@ -11,17 +11,19 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { logoutUser, setUser } from "../store/userSlice";
 import { User, UserInfo } from "../../../models/User";
 import { CredentialResponse, GoogleLogin } from "@react-oauth/google";
 import { useDispatch } from "react-redux";
 import { setBuildings } from "../store/buildingsSlice";
-import { createUser, getBuildings, getUserById } from "../services";
+import { chat, createUser, getBuildings, getUserById } from "../services";
+import { setChat } from "../store/chatSlice";
 
 function SearchBar({
   searchText,
@@ -32,11 +34,32 @@ function SearchBar({
 }) {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
+  const location = useLocation();
+  const [chatMode, setChatMode] = useState(location.pathname.includes("chat"));
+
+  useEffect(() => {
+    setChatMode(location.pathname.includes("chat"));
+  }, [location]);
 
   const search = async () => {
-    navigate("/");
-    const buildings = await getBuildings(searchText);
-    dispatch(setBuildings(buildings));
+    if (chatMode) {
+      dispatch(setChat({ message: searchText, response: "%%loading%%" }));
+      navigate("chat");
+      setSearchText("");
+      dispatch(
+        setChat({ message: searchText, response: await chat(searchText) })
+      );
+    } else {
+      navigate("/");
+      const buildings = await getBuildings(searchText);
+      dispatch(setBuildings(buildings));
+    }
+  };
+
+  const toggleChat = () => {
+    navigate(chatMode ? "" : "chat");
+    dispatch(setChat({ message: null, response: null }));
+    setChatMode(!chatMode);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLDivElement>) => {
@@ -57,8 +80,11 @@ function SearchBar({
         className="navbar-search"
         sx={{ ".MuiOutlinedInput-root": { borderRadius: 5 } }}
       />
-      <IconButton onClick={search} className="navbar-search-button">
+      <IconButton onClick={search} className="navbar-icon-button">
         <SearchIcon />
+      </IconButton>
+      <IconButton onClick={toggleChat} className="navbar-icon-button">
+        <AutoAwesomeIcon htmlColor={chatMode ? "#dc2626" : "inherit"} />
       </IconButton>
     </>
   );
@@ -119,6 +145,7 @@ function UserAvatar({ user }: { user: User }) {
 }
 
 function LogInButton() {
+  const marginRight = !useMediaQuery("(max-width: 1000px)") ? "0px" : "24px";
   const dispatch = useDispatch();
   const onSuccess = async (credentials: CredentialResponse) => {
     if (credentials.credential) {
@@ -146,8 +173,8 @@ function LogInButton() {
   const onError = () => {};
 
   return (
-    <div className="login-button">
-      <GoogleLogin shape="pill" onSuccess={onSuccess} onError={onError} />
+    <div className="login-button" style={{ marginRight: marginRight }}>
+      <GoogleLogin shape={"pill"} onSuccess={onSuccess} onError={onError} />
     </div>
   );
 }

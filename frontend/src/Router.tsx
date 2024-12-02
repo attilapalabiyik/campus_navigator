@@ -3,6 +3,7 @@ import Root from "./routes/Root/Root";
 import SettingsPage from "./routes/SettingsPage/SettingsPage";
 import HomePage from "./routes/HomePage/HomePage";
 import BuildingPage from "./routes/BuildingPage/BuildingPage";
+import ChatPage from "./routes/ChatPage/ChatPage";
 
 const Router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const Router = createBrowserRouter([
       {
         path: "",
         element: <HomePage />,
+      },
+      {
+        path: "chat",
+        element: <ChatPage />,
       },
       {
         path: "building/:id",
