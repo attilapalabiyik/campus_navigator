@@ -13,6 +13,13 @@ import { Building, Floor, Room } from "../../../../models/Building";
 import BuildingMap from "../../components/BuildingMap";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import KeyboardReturnIcon from "@mui/icons-material/KeyboardReturn";
+import WcIcon from "@mui/icons-material/Wc";
+import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
+import PeopleOutlineOutlinedIcon from "@mui/icons-material/PeopleOutlineOutlined";
+import BuildOutlinedIcon from "@mui/icons-material/BuildOutlined";
+import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
+import ScienceOutlinedIcon from "@mui/icons-material/ScienceOutlined";
+import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
 import { useEffect, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
@@ -35,6 +42,7 @@ function RoomInfo({
         <Typography fontSize={20} style={{ marginLeft: "8px" }}>
           {room.name}
         </Typography>
+        <AttributeIcons attributes={room.attributes} />
       </div>
       <div className="building-room-calendar">
         <FullCalendar
@@ -44,6 +52,32 @@ function RoomInfo({
         />
       </div>
     </>
+  );
+}
+
+function AttributeIcons({ attributes }: { attributes: string[] }) {
+  return (
+    <div>
+      {attributes.includes("classroom") && (
+        <SchoolOutlinedIcon className="attribute-icon" />
+      )}
+      {attributes.includes("restroom") && <WcIcon className="attribute-icon" />}
+      {attributes.includes("common") && (
+        <PeopleOutlineOutlinedIcon className="attribute-icon" />
+      )}
+      {attributes.includes("utility") && (
+        <BuildOutlinedIcon className="attribute-icon" />
+      )}
+      {attributes.includes("office") && (
+        <WorkOutlineOutlinedIcon className="attribute-icon" />
+      )}
+      {attributes.includes("laboratory") && (
+        <ScienceOutlinedIcon className="attribute-icon" />
+      )}
+      {attributes.includes("support") && (
+        <SupportAgentOutlinedIcon className="attribute-icon" />
+      )}
+    </div>
   );
 }
 
@@ -62,6 +96,7 @@ function BuildingRooms({
         <Accordion className="building-floor">
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             {floor.name}
+            <AttributeIcons attributes={floor.attributes} />
           </AccordionSummary>
           {floor.rooms
             .sort((a, b) => a.name.localeCompare(b.name))
@@ -75,6 +110,7 @@ function BuildingRooms({
                 }
               >
                 {room.name}
+                <AttributeIcons attributes={room.attributes} />
               </AccordionDetails>
             ))}
         </Accordion>

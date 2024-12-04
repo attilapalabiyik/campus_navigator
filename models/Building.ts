@@ -1,7 +1,9 @@
 export interface Event {
   title: string;
-  start: Date;
-  end: Date;
+  start?: Date;
+  end?: Date;
+  startTime?: Date;
+  endTime?: Date;
 }
 
 export interface Room {
@@ -13,6 +15,7 @@ export interface Room {
 export interface Floor {
   name: string;
   rooms: Room[];
+  attributes: string[];
 }
 
 export interface Building {
