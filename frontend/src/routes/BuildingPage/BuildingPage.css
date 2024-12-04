@@ -34,6 +34,10 @@
   margin: 10px 0;
 }
 
+.attribute-icon {
+  margin-left: 8px;
+}
+
 .building-floor .MuiAccordionSummary-root {
   font-size: 18px;
   background-color: #dee2e6;
@@ -41,6 +45,7 @@
 }
 
 .building-room {
+  display: flex;
   padding: 10px 15px;
   background-color: #ffffff;
   border-bottom: 1px solid #adb5bd;
@@ -48,6 +53,7 @@
 }
 
 .building-room-selected {
+  display: flex;
   padding: 10px 15px;
   background-color: #e3e3e3;
   border-bottom: 1px solid #adb5bd;
