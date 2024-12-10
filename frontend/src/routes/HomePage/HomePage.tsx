@@ -6,6 +6,7 @@ import {
   CardContent,
   CardMedia,
   IconButton,
+  Pagination,
   Typography,
 } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
@@ -13,7 +14,7 @@ import { Building } from "../../../../models/Building";
 import { useNavigate } from "react-router-dom";
 import { useAppSelector } from "../../store/hooks";
 import { setBuildings } from "../../store/buildingsSlice";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { getBuildings, patchUser } from "../../services";
 import { setUser } from "../../store/userSlice";
@@ -85,7 +86,7 @@ function BuildingsContent() {
   return (
     <div className="buildings-content">
       {buildingsState &&
-        [...buildingsState]
+        [...buildingsState.buildings]
           .sort((a: Building, b: Building) =>
             savedBuilding(a) === savedBuilding(b)
               ? a.name.localeCompare(b.name)
@@ -100,18 +101,35 @@ function BuildingsContent() {
 
 function HomePage() {
   const dispatch = useDispatch();
+  const buildingsState = useAppSelector((state) => state.buildings);
+  const [page, setPage] = useState(1);
+
+  const handlePagination = (
+    _event: React.ChangeEvent<unknown>,
+    value: number
+  ) => {
+    setPage(value);
+  };
 
   useEffect(() => {
     const fetchBuildings = async () => {
-      const buildings = await getBuildings();
-      dispatch(setBuildings(buildings));
+      const buildingsData = await getBuildings(page);
+      dispatch(setBuildings(buildingsData));
     };
     fetchBuildings();
-  }, [dispatch]);
+  }, [page, dispatch]);
 
   return (
     <div className="home-content">
       <BuildingsContent />
+      {buildingsState && (
+        <Pagination
+          count={buildingsState.totalPages}
+          page={page}
+          onChange={handlePagination}
+          className="buildings-paginator"
+        />
+      )}
     </div>
   );
 }

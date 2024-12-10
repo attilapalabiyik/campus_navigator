@@ -65,7 +65,7 @@ async function chat(prompt: string, system_prompt: string = SYSTEM_PROMPT) {
         { role: "system", content: system_prompt },
         { role: "user", content: prompt },
       ],
-      model: "gpt-4o-mini",
+      model: "gpt-4o",
     })
   ).choices[0].message.content;
 }

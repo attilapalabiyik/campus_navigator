@@ -13,7 +13,6 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import SettingsIcon from "@mui/icons-material/Settings";
 import LogoutIcon from "@mui/icons-material/Logout";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { useEffect, useState } from "react";
@@ -43,16 +42,18 @@ function SearchBar({
 
   const search = async () => {
     if (chatMode) {
-      dispatch(setChat({ message: searchText, response: "%%loading%%" }));
-      navigate("chat");
-      setSearchText("");
-      dispatch(
-        setChat({ message: searchText, response: await chat(searchText) })
-      );
+      if (searchText) {
+        dispatch(setChat({ message: searchText, response: "%%loading%%" }));
+        navigate("chat");
+        setSearchText("");
+        dispatch(
+          setChat({ message: searchText, response: await chat(searchText) })
+        );
+      }
     } else {
       navigate("/");
-      const buildings = await getBuildings(searchText);
-      dispatch(setBuildings(buildings));
+      const buildingsData = await getBuildings(1, searchText);
+      dispatch(setBuildings(buildingsData));
     }
   };
 
@@ -92,7 +93,6 @@ function SearchBar({
 
 function UserAvatar({ user }: { user: User }) {
   const showText = !useMediaQuery("(max-width: 1000px)");
-  const navigate = useNavigate();
   const dispatch = useAppDispatch();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [openMenu, setMenu] = useState(false);
@@ -126,13 +126,6 @@ function UserAvatar({ user }: { user: User }) {
         className="avatar-menu"
         slotProps={{ paper: { sx: { width: "200px" } } }}
       >
-        <MenuItem
-          className="avatar-menu-item"
-          onClick={() => navigate("/settings")}
-        >
-          <SettingsIcon />
-          <Typography className="avatar-menu-text">Settings</Typography>
-        </MenuItem>
         <MenuItem className="avatar-menu-item" onClick={logout}>
           <LogoutIcon color="error" />
           <Typography color="error" className="avatar-menu-text">
@@ -189,7 +182,7 @@ function Navbar() {
 
   const navigateHome = async () => {
     setSearchText("");
-    const buildings = await getBuildings();
+    const buildings = await getBuildings(1);
     dispatch(setBuildings(buildings));
     navigate("/");
   };
