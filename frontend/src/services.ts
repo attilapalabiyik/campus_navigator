@@ -55,10 +55,10 @@ export const getUserById = async (id: string) => {
   }
 };
 
-export const getBuildings = async (search?: string) => {
+export const getBuildings = async (page: number, search?: string) => {
   try {
     const response = await api.get("/buildings", {
-      params: { search },
+      params: { page, search },
     });
     return response.data;
   } catch (error) {

@@ -1,6 +1,5 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Root from "./routes/Root/Root";
-import SettingsPage from "./routes/SettingsPage/SettingsPage";
 import HomePage from "./routes/HomePage/HomePage";
 import BuildingPage from "./routes/BuildingPage/BuildingPage";
 import ChatPage from "./routes/ChatPage/ChatPage";
@@ -21,10 +20,6 @@ const Router = createBrowserRouter([
       {
         path: "building/:id",
         element: <BuildingPage />,
-      },
-      {
-        path: "settings",
-        element: <SettingsPage />,
       },
       {
         path: "*",
