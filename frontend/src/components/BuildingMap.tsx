@@ -42,12 +42,16 @@ function BuildingMap({ building }: { building: Building }) {
   const [mapRef, setMapRef] = useState<google.maps.Map | null>(null);
 
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition((position) => {
-      setCurrentLocation({
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      });
-    });
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        setCurrentLocation({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        });
+      },
+      null,
+      { enableHighAccuracy: true }
+    );
   }, []);
 
   useEffect(() => {
