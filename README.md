@@ -92,7 +92,15 @@ The website will now be running on the port 'localhost:3000' on your browser
 - Events in a selected room are displayed in a Calendar. Add or save events for easy access.
 - A chatbot answers student queries about events in the given buildings 
 (E.g - What events are there in September in N470 at the ILC?)
- 
+
+
+## The Database
+The database has been created using MongoDB Atlas. There are two collections, one for the users and another collection for buildings. The buildings collection is static and has information about the Machmer Hall and ILC buildings in UMASS Amherst. The collection contains both the buildings as JSON objects with information about each floor (containting the room number, functionality and events data). The events are added as nested objects inside the building objects for respective floors. These events serve as a source for the calendar UI on our webpage. In order to recreate this database setup, create new similar JSON files or use the ones given in our repository and add it to your MongoDB cluster using Compass/VS Code.
+
+
+## Demo
+Video link - https://youtu.be/KmLGA1RDDUo 
+
 
 ## Running Tests
 
@@ -132,6 +140,8 @@ npm run test:watch
 [![Typescript.js](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]
 (https://www.typescriptlang.org/)
 
-
 **Database:** 
 [![Mongo DB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
+**GPT Model used for Bot**
+[![GPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://platform.openai.com/docs/models/gpt-4-0-turbo)
