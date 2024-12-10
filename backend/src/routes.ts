@@ -81,12 +81,33 @@ router.get("/api/users/:id", async (req: Request, res: Response) => {
 });
 
 router.get("/api/buildings", async (req: Request, res: Response) => {
+  const page = Number(req.query.page) || 1;
   const search = req.query.search as string;
+  const pageSize = 6;
 
   try {
     const query = search ? { name: { $regex: search, $options: "i" } } : {};
     const buildings = await buildingsCollection.find<Building>(query).toArray();
-    res.status(200).json(buildings);
+
+    if (page < 1 || page > Math.ceil(buildings.length / pageSize)) {
+      return res.status(400).json({ message: "Invalid page number" });
+    }
+
+    const startIndex = (page - 1) * pageSize;
+    const paginatedBuildings = buildings.slice(
+      startIndex,
+      startIndex + pageSize
+    );
+
+    const totalPages = Math.ceil(buildings.length / pageSize);
+
+    res
+      .status(200)
+      .json({
+        buildings: paginatedBuildings,
+        totalPages: totalPages,
+        search: search,
+      });
   } catch (error) {
     res.status(500).json({ message: "Failed to fetch buildings", error });
   }

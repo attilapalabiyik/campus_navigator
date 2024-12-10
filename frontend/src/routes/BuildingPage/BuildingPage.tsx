@@ -39,10 +39,9 @@ function RoomInfo({
         <IconButton onClick={() => setSelectedRoom(null)}>
           <KeyboardReturnIcon />
         </IconButton>
-        <Typography fontSize={20} style={{ marginLeft: "8px" }}>
+        <Typography variant="h6" style={{ marginLeft: "8px" }}>
           {room.name}
         </Typography>
-        <AttributeIcons attributes={room.attributes} />
       </div>
       <div className="building-room-calendar">
         <FullCalendar
@@ -57,7 +56,7 @@ function RoomInfo({
 
 function AttributeIcons({ attributes }: { attributes: string[] }) {
   return (
-    <div>
+    <div className="attribute-icons">
       {attributes.includes("classroom") && (
         <SchoolOutlinedIcon className="attribute-icon" />
       )}
@@ -95,7 +94,9 @@ function BuildingRooms({
       {building.floors.map((floor: Floor) => (
         <Accordion className="building-floor">
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            {floor.name}
+            <Typography variant="h6" alignSelf={"center"}>
+              {floor.name}
+            </Typography>
             <AttributeIcons attributes={floor.attributes} />
           </AccordionSummary>
           {floor.rooms
@@ -109,7 +110,9 @@ function BuildingRooms({
                     : "building-room"
                 }
               >
-                {room.name}
+                <Typography variant="body1" alignSelf={"center"}>
+                  {room.name}
+                </Typography>
                 <AttributeIcons attributes={room.attributes} />
               </AccordionDetails>
             ))}
